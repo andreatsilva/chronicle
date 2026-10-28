@@ -36,6 +36,8 @@ A separate exporter on the owner's computer reads the running studio's existing 
 
 The exporter does not stop or restart CHRONICLE. Visitors cannot start, pause, stop, approve, retry, upload or modify production. Their browser reads public static GitHub files and never contacts the owner's computer. No local port or control endpoint is exposed.
 
+To avoid GitHub's cached branch URLs mixing an old snapshot with newer frames, the browser resolves the current public feed commit at most once per 90 seconds, then reads immutable files from that commit. This uses unauthenticated GitHub API reads (subject to its shared per-IP limit); if unavailable, cached data remains visible with freshness labeling. Normal updates can lag production by roughly one to three minutes.
+
 When the computer or exporter is offline, the last snapshot remains visible and becomes marked as delayed. Counts reflect actual production records; completed and published are distinct states. Failed or unpublished local work is not automatically presented as a public video.
 
 The `live` branch is owned exclusively by the exporter and keeps a single rolling snapshot commit to avoid retaining every preview in branch history. It should not be used for manual development. Unreachable Git objects may remain temporarily in GitHub storage.

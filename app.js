@@ -34,5 +34,5 @@ async function refresh(){try{
  // At most 40 anonymous GitHub API lookups/hour per open visitor, with fallback.
  if(Date.now()-headChecked>90000){headChecked=Date.now();try{const head=await fetch('https://api.github.com/repos/andreatsilva/chronicle/git/ref/heads/live?t='+Math.floor(Date.now()/90000),{cache:'no-store'});if(head.ok){const ref=await head.json();if(/^[a-f0-9]{40}$/.test(ref.object?.sha))feedBase='https://raw.githubusercontent.com/andreatsilva/chronicle/'+ref.object.sha+'/'}}catch{}}
  const response=await fetch(feedBase+'snapshot.json?t='+Math.floor(Date.now()/20000),{cache:'no-store',referrerPolicy:'no-referrer'});if(!response.ok)throw Error('Feed unavailable');render(await response.json())}catch{if(lastSnapshot)render(lastSnapshot);else{text('connection','● Awaiting local sync');text('freshness','Production feed not yet available')}}}
-document.querySelectorAll('nav a').forEach(link=>link.addEventListener('click',()=>{document.querySelectorAll('nav a').forEach(a=>a.classList.remove('selected'));link.classList.add('selected')}));
+document.querySelectorAll('nav a[href^="#"]').forEach(link=>link.addEventListener('click',()=>{document.querySelectorAll('nav a[href^="#"]').forEach(a=>a.classList.remove('selected'));link.classList.add('selected')}));
 refresh();setInterval(refresh,20000);

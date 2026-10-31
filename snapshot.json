@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-31T10:58:25.585259+00:00",
+  "counts": {
+    "producing": 0,
+    "completed": 525,
+    "published": 299,
+    "waiting": 1
+  },
+  "current": null,
+  "recent": [
+    {
+      "title": "The Industrial Revolution: A Transformative Era",
+      "style": "parallax_2_5d",
+      "status": "Queued"
+    },
+    {
+      "title": "The Mongol Conquests: From Unification to Legacy",
+      "style": "parallax_2_5d",
+      "status": "Published",
+      "url": "https://www.youtube.com/watch?v=qfkxtzo_sgA"
+    },
+    {
+      "title": "Siege of Carcassonne (1209-1218)",
+      "style": "parallax_2_5d",
+      "status": "Failed"
+    },
+    {
+      "title": "The American Revolution: From Conflict to Legacy",
+      "style": "parallax_2_5d",
+      "status": "Published",
+      "url": "https://www.youtube.com/watch?v=CHzVoup-dIk"
+    },
+    {
+      "title": "The Pazzi Conspiracy: A Betrayal in Florence",
+      "style": "parallax_2_5d",
+      "status": "Published",
+      "url": "https://www.youtube.com/watch?v=T5gwvvy_C6o"
+    },
+    {
+      "title": "The Great Famine of 1846-1849",
+      "style": "parallax_2_5d",
+      "status": "Published",
+      "url": "https://www.youtube.com/watch?v=ON0-aiQKrIY"
+    },
+    {
+      "title": "Siege of Constantinople (1453) - Alternative Title (1453)",
+      "style": "parallax_2_5d",
+      "status": "Failed"
+    },
+    {
+      "title": "The Battle of Hastings: A Turning Point in History",
+      "style": "parallax_2_5d",
+      "status": "Failed"
+    },
+    {
+      "title": "The Silk Road: A Network of Connection and Change",
+      "style": "parallax_2_5d",
+      "status": "Published",
+      "url": "https://www.youtube.com/watch?v=Tkw_Rxr05o0"
+    }
+  ]
+}

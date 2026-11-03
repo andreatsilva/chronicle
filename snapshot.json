@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-03T12:46:49.448078+00:00",
+  "counts": {
+    "producing": 1,
+    "completed": 607,
+    "published": 381,
+    "waiting": 0
+  },
+  "current": {
+    "title": "The Great Flood of 1927: A Turning Point in History",
+    "style": "parallax_2_5d",
+    "phase": "render",
+    "scene_count": 5,
+    "scene_index": 4,
+    "frame_count": 240,
+    "frame_total": 299,
+    "scenes": [
+      {
+        "frame": "frames/scene-1.jpg"
+      },
+      {
+        "frame": "frames/scene-2.jpg"
+      },
+      {
+        "frame": "frames/scene-3.jpg"
+      },
+      {
+        "frame": "frames/scene-4.jpg"
+      },
+      {
+        "frame": null
+      }
+    ],
+    "credits": [
+      {
+        "title": "File:1927 Mississippi Flood Greenville Mississippi.jpg",
+        "artist": "Archival Photography by Steve Nicklas, NOS, NGS",
+        "license": "Public domain",
+        "license_url": "",
+        "file_page": "https://commons.wikimedia.org/wiki/File%3A1927_Mississippi_Flood_Greenville_Mississippi.jpg"
+      },
+      {
+        "title": "File:1927 Mississippi Flood Blowing Levee.jpg",
+        "artist": "Archival Photography by Steve Nicklas, NOS, NGS",
+        "license": "Public domain",
+        "license_url": "",
+        "file_page": "https://commons.wikimedia.org/wiki/File%3A1927_Mississippi_Flood_Blowing_Levee.jpg"
+      },
+      {
+        "title": "File:1927 Mississippi Flood Junior Louisiana.jpg",
+        "artist": "Archival Photography by Steve Nicklas, NOS, NGS",
+        "license": "Public domain",
+        "license_url": "",
+        "file_page": "https://commons.wikimedia.org/wiki/File%3A1927_Mississippi_Flood_Junior_Louisiana.jpg"
+      },
+      {
+        "title": "File:Aerial photograph of flood, unidentified stretch of lower Mississippi River. - NARA - 285959.jpg",
+        "artist": "Unknown author Unknown author or not provided",
+        "license": "Public domain",
+        "license_url": "",
+        "file_page": "https://commons.wikimedia.org/wiki/File%3AAerial_photograph_of_flood%2C_unidentified_stretch_of_lower_Mississippi_River._-_NARA_-_285959.jpg"
+      },
+      {
+        "title": "File:Oak Ridge, Louisiana during the Great Mississippi Flood of 1927.jpg",
+        "artist": "Unknown author Unknown author",
+        "license": "Public domain",
+        "license_url": "",
+        "file_page": "https://commons.wikimedia.org/wiki/File%3AOak_Ridge%2C_Louisiana_during_the_Great_Mississippi_Flood_of_1927.jpg"
+      }
+    ],
+    "frame": "frames/scene-4.jpg"
+  },
+  "recent": [
+    {
+      "title": "The Great Flood of 1927: A Turning Point in History",
+      "style": "parallax_2_5d",
+      "status": "Generating"
+    },
+    {
+      "title": "The Massacre of the Jews in York (1190)",
+      "style": "parallax_2_5d",
+      "status": "Failed"
+    },
+    {
+      "title": "The Battle of the Dodecanese (1912)",
+      "style": "parallax_2_5d",
+      "status": "Published",
+      "url": "https://www.youtube.com/watch?v=7sz6DGaS1EA"
+    },
+    {
+      "title": "The Fall of the Khmer Empire: A Reckoning of Power",
+      "style": "parallax_2_5d",
+      "status": "Failed"
+    },
+    {
+      "title": "The 1883 Krakatoa Eruption",
+      "style": "parallax_2_5d",
+      "status": "Failed"
+    },
+    {
+      "title": "The Great Schism of 1054: A Divide in Faith",
+      "style": "parallax_2_5d",
+      "status": "Published",
+      "url": "https://www.youtube.com/watch?v=fNiDWXe1l-k"
+    },
+    {
+      "title": "The Great Mississippi River Flood (1927)",
+      "style": "parallax_2_5d",
+      "status": "Published",
+      "url": "https://www.youtube.com/watch?v=QoS2RnYSyxo"
+    },
+    {
+      "title": "The Viking Discovery of Iceland",
+      "style": "parallax_2_5d",
+      "status": "Published",
+      "url": "https://www.youtube.com/watch?v=Nbgb6UlsDGU"
+    },
+    {
+      "title": "The 9/11 Attacks: A Shattered Day",
+      "style": "parallax_2_5d",
+      "status": "Published",
+      "url": "https://www.youtube.com/watch?v=csd_Pq--FP8"
+    }
+  ]
+}
